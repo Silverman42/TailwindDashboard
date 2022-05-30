@@ -1,0 +1,9 @@
+.sidebar{
+    @apply py-5 w-48 bg-white min-h-screen border-r self-start fixed top-0 hidden
+}
+
+@media screen(lg){
+    .sidebar{
+        @apply sticky block
+    }
+}
